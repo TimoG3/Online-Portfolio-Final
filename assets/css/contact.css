@@ -1,0 +1,169 @@
+#contact {
+    height: 120vh;
+    background-image: url(/Rework/assets/images/sect4.png);
+    margin: 0px;
+    padding: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 10px rgb(0, 0, 0, 1);
+}
+
+.contact-form {
+    max-width: 900px;
+    font-family: var(--font-tahoma);
+    font-size: 1.2rem;
+    background-color: var(--color-brown);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: var(--color-dimpink);
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 40rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-dark-brown);
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+    height: 8rem;
+}
+
+button[type="submit"] {
+    background-color: var(--color-dimpink);
+    color: var(--color-brown);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color-dimmer-pink);
+}
+
+.contactContainer {
+    display: flex;
+    margin: 3rem auto;
+}
+
+.contactDetail {
+    font-family: var(--font-tahoma);
+    font-size: 3rem;
+    color: var(--color-dark-brown);
+}
+
+.socials {
+    margin: 2rem;
+    text-align: center;
+}
+
+.socials2 {
+    font-family: var(--font-tahoma);
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+
+.icon {
+    color: var(--color-brown);
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: var(--color-dimmer-pink);
+    border-radius: 5rem;
+    background-size: 1px;
+    background: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-form {
+        max-width: 500px;
+    }
+
+    input[type="text"], 
+    input[type="email"], 
+    textarea {
+        width: 25rem;
+    }
+
+    .contactDetail {
+        font-size: 1.5rem;
+    }
+
+    .socials2 {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+    .socials {
+        margin: 1rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+        margin: 0.8rem;
+    }
+
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+
+    .contact-form {
+        font-size: 0.8rem;
+        padding: 15px;
+        margin: 0 150px 0 150px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        resize: vertical;
+        height: 2.8rem;
+    }
+
+    button[type="submit"] {
+        padding: 8px 16px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        margin: 10px 20px;
+    }
+
+    .contactContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="/Rework/assets/images/favicon.ico">
+
+    <title>Timothy Giron | Online Portfolio</title>
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="/Rework/assets/css/styles.css"><!-- MAIN -->
+    <link rel="stylesheet" href="/Rework/assets/css/navbar.css"><!-- NAVBAR -->
+    <link rel="stylesheet" href="/Rework/assets/css/hero.css"><!-- HERO -->
+    <link rel="stylesheet" href="/Rework/assets/css/about.css"><!-- ABOUT -->
+    <link rel="stylesheet" href="/Rework/assets/css/projects.css"><!-- PROJECTS -->
+    <link rel="stylesheet" href="/Rework/assets/css/contact.css"><!-- CONTACT -->
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar(event)><a href="#"><i class="fa-solid fa-xmark fa-2xl"></i></a></li>
+            <li><a href="#hero">&#9750; Home</a></li>
+            <li><a href="#about">&#10070; About Me</a></li>
+            <li><a href="#projects">&#128449; Projects</a></li>
+            <li><a href="#contact">&#9742; Contact</a></li>
+            <li><a href="/Rework/assets/Resume.pdf" download="Resume.pdf">&#128462; Download CV</a></li>
+        </ul>
+        <ul >
+            <li><a href="#hero"><img class="logo" src="/Rework/assets/images/mylogo.png" alt=""></a></li>
+            <li class="mobile"><a href="#hero">&#9750; Home</a></li>
+            <li class="mobile"><a href="#about">&#10070; About Me</a></li>
+            <li class="mobile"><a href="#projects">&#128449; Projects</a></li>
+            <li class="mobile"><a href="#contact">&#9742; Contact</a></li>
+            <li class="mobile"><a href="/Rework/assets/Resume.pdf" download="Resume.pdf">&#128462; Download CV</a></li>
+            <li class="menuBtn" onclick=showSidebar(event)><a href="#" id="menu"><i class="fa-solid fa-bars fa-2xl"></i></a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <div class="leftDiv">
+            <p class="greet">Hey fellow programmers! I am...</p>
+            <p class="name"><b>T</b>imothy Carl <b>A</b>. <b>G</b>iron</p>
+            <p class="orgsub">I'm a <span class="stroke"><b>Junior Developer</b></span> <i class="fa-solid fa-laptop-code"></i></p>
+            <p class="desc">Throughout the years of immersing myself in the study of coding, I have gained great knowledge and skills, honing my abilities in various areas of IT. 
+                As a dedicated IT student, I view coding not only as a skill but as an essential tool for creating many practical and innovative websites and applications. 
+                It brings me immense satisfaction to showcase a selection of my coded works and projects, reflective of my ongoing journey and progress in this dynamic field.
+            </p>
+            <p class="desc2">Use the navigation bar to see more of what I offer!</p>
+            <p class="desc2">Or scroll down for more <span class="misc">&#129095;</span></p>
+        </div>
+        <div class="rightDiv">
+            <img class="TAGphoto" src="/Rework/assets/images/port-photo-1.png" alt="TAG Photo">
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="title"><i class="fa-solid fa-address-card"></i> <span>About</span> Me</h2>
+        <div class="imgContainer">
+            <div>
+                <img class="photo" src="/Rework/assets/images/port-photo-2.png" alt="Photo2">
+            </div>
+            <div>
+                <img class="images" src="/Rework/assets/images/HTML.png" alt="HTML">
+                <img class="images" src="/Rework/assets/images/CSS.png" alt="CSS">
+                <img class="images" src="/Rework/assets/images/JS.png" alt="JS">
+                <img class="images" src="/Rework/assets/images/PHP.png" alt="PHP">
+                <img class="images" src="/Rework/assets/images/MYSQL.png" alt="MYSQL">
+                <div class="textContainer">
+                    <p class="abt">
+                        I'm really passionate about technology, especially computers and the internet. Ever since I was a kid, I've been drawn to the online world like a moth to a flame. It's just so fascinating to me how you can connect with people from all over the globe, find answers to almost any question, and discover endless amounts of information and entertainment, all at the click of a button.
+                        This fascination with the internet is a big reason why I decided to study IT, or Information Technology. Basically, IT is all about understanding how computers and technology work and figuring out how to use them to solve problems and make things easier for people.
+                    </p>
+                    <p class="abt">
+                        For me, it's not just about using technology; it's about understanding it at a deeper level. I want to know how websites are built, how data is stored and transmitted securely, and how to troubleshoot when things go wrong. That's why I'm diving into subjects like coding, networking, and cybersecurity as part of my IT studies.
+                        But I didn't just stumble into IT on my own. My dad has been a huge inspiration for me. He's always been a tech enthusiast, and he's the one who first introduced me to computers and gadgets when I was young. He's taught me so much about the evolution of technology, from the early days of clunky desktop computers to the sleek, powerful devices we have today.
+                        Thanks to my love for the internet and my dad's guidance, I'm now on this exciting journey as an IT student. I can't wait to learn more about how technology works and how I can use my skills to make a positive impact in the digital world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="title">My <span>Projects</span> <i class="fa-solid fa-diagram-project"></i></h2>
+        <p class="detail">Here are my works that I made throughout my studies of learning how to code</p>
+        <div class="workContainer">
+            <div class="ssc">
+                <h3 class="sscTitle"><span class="stroke">Game Station</span></h3>
+                <img src="/Rework/assets/images/work1.PNG" alt="Game Station">
+                <div class="link">
+                    <a href="https://timog3.github.io/responsive-website/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/TimoG3/responsive-website" target="_blank">Source Code</a>
+                </div>
+                <h3 class="sscTitle"><span class="stroke">Simple Calulator</span></h3>
+                <img src="/Rework/assets/images/work2.PNG" alt="Simple Calculator">
+                <div class="link">
+                    <a href="https://timog3.github.io/Working-Calculator/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/TimoG3/Working-Calculator" target="_blank">Source Code</a>
+                </div class="link">
+                <h3 class="sscTitle"><span class="stroke">2Do List</span></h3>
+                <img src="/Rework/assets/images/work3.PNG" alt="2DoList">
+                <div class="link">
+                    <a href="https://timog3.github.io/2DoList/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/TimoG3/2DoList" target="_blank">Source Code</a>
+                </div>
+            </div>
+            <div class="ssc">
+                <h3 class="sscTitle"><span class="stroke">addEventListener</span></h3>
+                <img src="/Rework/assets/images/work4.PNG" alt="addEventListener">
+                <div class="link">
+                    <a href="https://timog3.github.io/HandsOn1-addEventListener-WS101/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/TimoG3/HandsOn1-addEventListener-WS101" target="_blank">Source Code</a>
+                </div>
+                <h3 class="sscTitle"><span class="stroke">Color Changer</span></h3>
+                <img src="/Rework/assets/images/work5.PNG" alt="Color Changer">
+                <div class="link">
+                    <a href="https://timog3.github.io/HandsOn2-colorChanger-WS101/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/TimoG3/HandsOn2-colorChanger-WS101" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="title"><i class="fa-solid fa-paper-plane"></i> <span>Contact</span> Me</h2>
+        <div class="contactContainer">
+            <div class="socials">
+                <div class="contactDetail">
+                    <p>Got any questions?<br>Contact me!</p>
+                </div>
+                <a class="icon" href="https://www.facebook.com/theo.abrigo"><i class="fab fa-facebook"></i></a>
+                <a class="icon" href=""><i class="fa-brands fa-instagram"></i></a>
+                <a class="icon" href=""><i class="fa-brands fa-github"></i></a>
+                <div class="socials2">
+                    <p><i class="fa-solid fa-envelope"></i> timo7787@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0930-506-2629</p>
+                </div>
+            </div>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name"><i class="fa-solid fa-user"></i> Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fa-solid fa-at"></i> Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fa-solid fa-pen-clip"></i> Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>    
+        </div> 
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 | All rights reserved.<br>Developed by Timothy Carl A. Giron</p>
+    </footer>
+    <button onclick="topFunction()" id="scroll" title="Go to top">&#11145;</button>
+</body>
+<script src="https://kit.fontawesome.com/0bf52298a9.js" crossorigin="anonymous"></script>
+<script src="/Rework/assets/js/main.js"></script>
+</html>

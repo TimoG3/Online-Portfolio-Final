@@ -1,0 +1,125 @@
+#about {
+    height: 140vh;
+    background-image: url(/Rework/assets/images/sect2.png);
+    margin: 0px;
+    padding: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0 10px rgb(0, 0, 0, 1);
+}
+
+.imgContainer {
+    display: flex;
+}
+
+.textContainer {
+    background-color: var(--color-brown);
+    border: outset 3px var(--color-dark-brown);
+    border-radius: 4rem 2rem;
+    margin: 10px 20px;
+}
+
+.images {
+    max-height: 130px;
+    max-width: 130px;
+    margin: 20px;
+    image-rendering: optimizeQuality;
+}
+
+.photo {
+    max-height: 35rem;
+    width: auto;
+    margin: 25px 22px;
+    border-radius: 20px;
+}
+
+.abt {
+    font-size: 1.1rem;
+    font-family: var(--font-tahoma);
+    color: var(--color-light);
+    text-wrap: wrap;
+    text-align: justify;
+    text-indent: 5rem;
+    margin: 10px 15px;
+}
+
+@media only screen and (max-width: 1342px) {
+    
+}
+
+@media only screen and (max-width: 1278px) {
+    .images {
+        max-height: 105px;
+        max-width: 105px;
+        margin: 10px;
+    }
+
+    .abt {
+        font-size: 0.8rem;
+        text-indent: 3rem;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .images {
+        max-height: 95px;
+        max-width: 95px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 937px) {
+
+    .abt {
+        font-size: 0.65rem;
+        text-indent: 3rem;
+        margin: 10px;
+    }
+
+    .photo {
+        max-height: 25rem;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 674px) {
+
+    .textContainer {
+        border-radius: 2rem 1rem;
+        margin: 10px 20px;
+    }
+
+    .imgContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abt {
+        font-size: 0.55rem;
+        text-indent: 2rem;
+    }
+
+    .photo {
+        max-height: 15rem;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .abt {
+        font-size: 0.45rem;
+        text-indent: 2rem;
+    }
+
+    .images {
+        max-height: 55px;
+        max-width: 55px;
+        margin: 10px;
+    }
+}

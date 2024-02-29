@@ -1,0 +1,176 @@
+#hero {
+    height: 110vh;
+    padding-top: 6rem;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+    background-image: url(/Rework/assets/images/sect1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--color-brown);
+}
+
+.greet {
+    font-size: 2.3rem;
+    font-family: var(--font-tahoma);
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: justify;
+    align-items: center;
+    margin: 2rem;
+    max-width: 80rem;
+    
+}
+
+.leftDiv ,.name {
+    font-size: 5.5rem;
+    font-family: var(--font-segoe-ui);
+}
+
+.name b {
+    color: var(--color-light);
+    -webkit-text-stroke: 3px var(--color-brown);
+}
+
+.orgsub {
+    font-size: 2rem;
+    font-family: var(--font-tahoma);
+    margin: 10px;
+}
+
+.orgsub span {
+    text-decoration: underline;
+}
+
+.desc {
+    font-size: 1.3rem;
+    margin: 30px 5px;
+    font-family: var(--font-tahoma);
+    text-indent: 4rem;
+}
+
+.desc2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--font-segoe-ui);
+    margin: 13px 15px;
+}
+
+.rightDiv {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rightDiv .TAGphoto {
+    max-height: 30rem;
+    width: auto;
+    image-rendering: optimizeQuality;
+    border-radius: 20px;
+    position: static;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1342px) {
+    #hero {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        align-content: space-around;
+    }
+
+    .greet {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 2.5rem;
+    
+    }
+
+    .orgsub {
+        font-size: 1.5rem;
+    }
+
+    .desc {
+        font-size: 1rem;
+        margin: 15px 5px;
+    }
+
+    .desc2 {
+        font-size: 1rem;
+        margin: 5px 5px;
+    }
+
+    .leftDiv {
+        margin: 1rem;
+    }
+
+    .rightDiv {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightDiv .TAGphoto {
+        max-height: 14rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        padding-top: 0%;
+    }
+
+    .greet {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .orgsub {
+        font-size: 1.3rem;
+    }
+
+    .desc {
+        font-size: 0.8rem;
+        margin: 10px 5px;
+    }
+
+    .desc2 {
+        font-size: 1rem;
+        margin: 5px 5px;
+    }
+
+    .leftDiv {
+        margin: 0.5rem;
+    }
+
+    .rightDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightDiv .TAGphoto {
+        max-height: 12rem;
+    }
+
+}
